@@ -15,9 +15,9 @@ public class InicializaClasificados implements ServletContextListener{
 		String nombre = sce.getServletContext().getInitParameter("nombreSitio");
 		String email = sce.getServletContext().getInitParameter("email");
 		String telefono = sce.getServletContext().getInitParameter("telefono");
-		System.out.println(nombre);
+		/*System.out.println(nombre);
 		System.out.println(email);
-		System.out.println(telefono);
+		System.out.println(telefono);*/
 		//Se guardan en el contexto
 		ServletContext contexto = sce.getServletContext();
 		contexto.setAttribute("nombreSitio", nombre);
@@ -25,8 +25,8 @@ public class InicializaClasificados implements ServletContextListener{
 		contexto.setAttribute("telefono", telefono);
 		SitioClasificado sitio= new SitioClasificado(nombre,email,telefono);
 		contexto.setAttribute("sitio", sitio);
-		System.out.println(contexto.getAttribute("telefono"));
+		/*System.out.println(contexto.getAttribute("telefono"));
 		System.out.println(contexto.getAttribute("email"));
-		System.out.println(contexto.getAttribute("nombreSitio"));
+		System.out.println(contexto.getAttribute("nombreSitio"));*/
 	}
 }

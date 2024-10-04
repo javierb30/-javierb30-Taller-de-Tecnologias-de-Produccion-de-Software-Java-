@@ -1,0 +1,28 @@
+@charset "UTF-8";.mensaje{
+	display: flex;
+	height: 100px;
+	width: 500px;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: lightseagreen;
+	color: darkblue;
+	font-size: 20px;
+	align-items: center;
+	margin: 10px;
+	justify-content: space-around;
+	text-align: center;
+}
+h1{
+	text-align: center;
+	text-decoration: underline lightseagreen;
+}
+form{
+	border-style: dashed;
+	border-width: 3px;
+	border-color: lightseagreen;
+	padding: 20px;
+}
+.formulario{
+	display: flex;
+	justify-content: space-around;
+}

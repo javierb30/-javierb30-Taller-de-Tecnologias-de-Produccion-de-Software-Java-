@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Quilmes Rock</title>
+</head>
+<body>
+	<form action="ImprimeEntrada" method="post">
+		<p><label for="name">Nombre:</label>
+	    <input type="text" id="name" name="name"></p>
+	    <p><label for="lastname">Apellido:</label>
+	    <input type="text" id="lastname" name="lastname"></p>
+	    <p><label for="email">Email:</label>
+	    <input type="text" id="email" name="email"></p>
+	    <p><label for="dni">DNI:</label>
+	    <input type="text" id="dni" name="dni"></p>
+	    <p><label for="dosDias">Cantidad de entradas por dos días:</label>
+	    <select name="dosDias" id="dosDias">
+	    	<option value="0">Ninguna</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+	    </select></p>
+	    <p><label for="tresDias">Cantidad de entradas por tres días:</label>
+	    <select name="tresDias" id="tresDias">
+	    	<option value="0">Ninguna</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+	    </select></p>
+	    <button type="submit">Comprar</button>    	       	    
+	</form>
+
+</body>
+</html>
